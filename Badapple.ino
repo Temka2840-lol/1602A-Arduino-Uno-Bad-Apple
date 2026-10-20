@@ -2,7 +2,7 @@
 #include <SD.h>
 #include <LiquidCrystal.h>
 
- (RS, Enable, D4, D5, D6, D7)
+ //(RS, Enable, D4, D5, D6, D7)
 LiquidCrystal lcd(8, 9, 2, 3, 4, 5);
 
 const int chipSelect = 7;
